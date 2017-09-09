@@ -26,14 +26,14 @@ public class FirstFragment extends Fragment{
 // get the reference of Button
         firstButton = (Button) view.findViewById(R.id.firstButton);
 // perform setOnClickListener on first Button
-        firstButton.setOnClckListener(new View.OnClickListener() {
+        firstButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 // display a message by using a Toast
-                Toast.makeText(geActivity(), "First Fragment", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "First Fragment", Toast.LENGTH_LONG).show();
             }
         });
         return view;
     }
 }
-git
+
