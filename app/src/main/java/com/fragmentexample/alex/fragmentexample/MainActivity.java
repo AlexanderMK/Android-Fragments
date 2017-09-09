@@ -14,12 +14,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 // get the reference of Button's
         firstFragment = (Button) findViewById(R.id.firstFragment);
         secondFragment = (Button) findViewById(R.id.secondFragment);
 
 // perform setOnClickListener event on First Button
-        firstFragment.setOnClickListener(new View.OnClickListener() {
+        firstragment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 // load First Fragment
