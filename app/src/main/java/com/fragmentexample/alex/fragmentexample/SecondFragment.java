@@ -25,11 +25,12 @@ public class SecondFragment extends Fragment{
 // get the reference of Button
         secondButton = (Button) view.findViewById(R.id.secondButton);
 // perform setOnClickListener on second Button
-        secondButto.setOnClickListener(new View.OnClickListener() {
+        secondButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 // display a message by using a Toast
-                Toast.makeText(getActivity(), "Second Fragment", Toast.LENGTH_LONG).show();
+                Toast.makeText(
+                        etActivity(), "Second Fragment", Toast.LENGTH_LONG).show();
             }
         });
         return view;
