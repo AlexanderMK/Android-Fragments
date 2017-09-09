@@ -24,9 +24,9 @@ public class FirstFragment extends Fragment{
 // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_first, container, false);
 // get the reference of Button
-        firstButton = (Button) view.findViewById(R.id.irstButton);
+        firstButton = (Button) view.findViewById(R.id.firstButton);
 // perform setOnClickListener on first Button
-        firstButton.setOnClickListener(new View.OnClickListener() {
+        firstButton.setOnClckListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 // display a message by using a Toast
