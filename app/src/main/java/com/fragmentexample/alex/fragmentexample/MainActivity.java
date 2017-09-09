@@ -33,13 +33,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 // load Second Fragment
-                loadragment(new SecondFragment());
+                loadFragment(new SecondFragment());
             }
         });
 
     }
 
-    private void loadFragment(Fragment fragment) {
+    private void oadFragment(Fragment fragment) {
 // create a FragmentManager
         FragmentManager fm = getFragmentManager();
 // create a FragmentTransaction to begin the transaction and replace the Fragment
