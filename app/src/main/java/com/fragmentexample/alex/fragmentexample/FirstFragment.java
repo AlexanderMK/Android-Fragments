@@ -22,9 +22,9 @@ public class FirstFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 // Inflate the layout for this fragment
-        view = inflater.inlate(R.layout.fragment_first, container, false);
+        view = inflater.inflate(R.layout.fragment_first, container, false);
 // get the reference of Button
-        firstButton = (Button) view.findViewById(R.id.firstButton);
+        firstButton = (Button) view.findViewById(R.id.irstButton);
 // perform setOnClickListener on first Button
         firstButton.setOnClickListener(new View.OnClickListener() {
             @Override
