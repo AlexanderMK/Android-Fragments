@@ -27,12 +27,13 @@ public class MainActivity extends AppCompatActivity {
                 loadFragment(new FirstFragment());
             }
         });
+
 // perform setOnClickListener event on Second Button
-        secondragment.setOnClickListener(new View.OnClickListener() {
+        secondFragment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 // load Second Fragment
-                loadFragment(new SecondFragment());
+                loadragment(new SecondFragment());
             }
         });
 
