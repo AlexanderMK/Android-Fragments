@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         secondFragment = (Button) findViewById(R.id.secondFragment);
 
 // perform setOnClickListener event on First Button
-        firstragment.setOnClickListener(new View.OnClickListener() {
+        firstFragment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 // load First Fragment
-                loadFragment(new FirstFragment());
+                loadFragment(w FirstFragment());
             }
         });
 // perform setOnClickListener event on Second Button
